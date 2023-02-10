@@ -30,10 +30,10 @@
       <div class="collapse navbar-collapse" id="navbar">
         <div class="navbar-nav">
           {% if user.is_authenticated %}
-          <a class="nav-item nav-link" id="home" href="/home">Home</a>
-          <a class="nav-item nav-link" id="calendar" href="/calendar" onClick="windows.location.href = 'calendar.html';">Calendar</a>
-          <a class="nav-item nav-link" id="calculator" href="/calculator" onClick="windows.location.href = 'calculator.html';">Calculator</a>
-          <a class="nav-item nav-link" id="notes" href="/notes" onClick="windows.location.href = 'notes.html';">Notes</a>
+          <a class="nav-item nav-link" id="home" href="/home" onClick="windows.location.href = 'home.html';">Home</a>
+          <a class="nav-item nav-link" id="account" href="/account" onClick="windows.location.href = 'account.html';">Account</a>
+          <a class="nav-item nav-link" id="tablegames" href="/tablegames" onClick="windows.location.href = 'tableGames.html';">Table Games</a>
+          <a class="nav-item nav-link" id="slotmachine" href="/slotmachine" onClick="windows.location.href = 'slotMachine.html';">Slot Machine</a>
           <a class="nav-item nav-link" id="logout" href="/logout">Logout</a>
           {% else %}
           <a class="nav-item nav-link" id="login" href="/login">Login</a>

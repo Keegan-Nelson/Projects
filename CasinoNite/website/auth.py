@@ -65,15 +65,22 @@ def sign_up():
 
     return render_template("sign_up.html", user=current_user)
 
+@auth.route('/home')
+@login_required
+def home():
+    return render_template("home.html", user=current_user)
 
-@auth.route('/calculator')
-def calculator():
-    return render_template("calculator.html", user=current_user)
+@auth.route('/account')
+@login_required
+def account():
+    return render_template("account.html", user=current_user)
 
-@auth.route('/calendar')
-def calendar():
-    return render_template("calendar.html", user=current_user)
+@auth.route('/slotmachine')
+@login_required
+def slotmachine():
+    return render_template("slotMachine.html", user=current_user)
 
-@auth.route('/notes')
-def notes():
-    return render_template("notes.html", user=current_user)
+@auth.route('/tablegames')
+@login_required
+def tablegames():
+    return render_template("tableGames.html", user=current_user)
