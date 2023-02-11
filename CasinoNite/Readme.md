@@ -7,5 +7,5 @@
     pip install flask-sqlalchemy
 
 
-## What is CasinoNite## 
+## What is CasinoNite
 
