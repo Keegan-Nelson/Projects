@@ -1,4 +1,4 @@
-#**Dependency in Order for Server to Run**
+# **Dependency in Order for Server to Run**
 
 <Will need python 3.10 to be able to run with flask>
 
