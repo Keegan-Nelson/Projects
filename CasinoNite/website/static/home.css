@@ -13,11 +13,12 @@ body {
 }
 
 .hero-bg {
-    background: #307D99 url('../images/bg.jpg');
-    background-position: 12% 83%;
+    background: #000000 url('images/homePage.jpg');
+    background-position: 38% 0%;
     color: white; 
     text-align: center;
-    padding-bottom: 4em;  
+    padding-bottom: 2em;  
+    padding-top: .5em;
 }
 
 header { 
@@ -25,7 +26,7 @@ header {
 }
 
 .hero-bg a { /* Best not to put a because it will effect all other links this the 'a' header thorughout the entire thing. Call within the class*/
-    color: white;   /* Caan have an rgb() or jsut alpha to make it transparent*/ 
+    color: rgb(255, 255, 255);   /* Caan have an rgb() or jsut alpha to make it transparent*/ 
     text-decoration: none;
     font-weight: bold; 
     font-size: 1.2rem; 
@@ -52,7 +53,7 @@ h1 span::before { /* LOOK INTO THIS (BFORE AND AFTER) */
     content: ' '; 
     position: absolute; 
     width: 4em; 
-    background: #00BFFF; 
+    background: #595959; 
     height: .4em; 
     bottom: 0; 
     z-index: -1;
@@ -65,9 +66,9 @@ h1 span::before { /* LOOK INTO THIS (BFORE AND AFTER) */
 }
 
 .form-container { 
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 2em -1em 0; 
-    padding: 2em;
+    padding: 3em;
 }
 
 label { 
@@ -97,10 +98,10 @@ input[type=text] {
 }
 
 input[type=button] { 
-  background-color: #F89104; 
+  background-color: rgb(128, 128, 128); 
   border: none; 
   width: 100%;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold; 
   padding: 1em 0; 
   border-radius: .5em;
