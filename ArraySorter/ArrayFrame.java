@@ -36,7 +36,6 @@ public class ArrayFrame extends JFrame {
 	
 	public void selectionSort(int[] intArray){
 		int leftToSort = intArray.length;
-		//int maxIndex = 0;
 		boolean sorted = false; 
 		if(!sorted) {
 			sorted = true; 
