@@ -39,7 +39,7 @@ public class PigLatin {
 		
 	}
 
-	public static void main(java.lang.String[]	args) {
+	public static void main(java.lang.String[]args) {
 		//System.out.println(PigLatin.convertWord("string"));
 		//System.out.println(PigLatin.convertWord("apple"));
 		
