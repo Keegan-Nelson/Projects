@@ -16,7 +16,7 @@ public class ArrayFrame extends JFrame {
 	private int[] array1 = new int[40];   // normally 40; 
 	private Random gen = new Random();		
 	private int[] array2 = new int[40];   // normally 40; 
-												//create two displays and fills  then need to have a button which sorts the second one
+												
 	private JButton stop; 
 	private JButton reset; 
 	private Timer timer; 
@@ -79,9 +79,8 @@ public class ArrayFrame extends JFrame {
 	private class sortOnce implements ActionListener { 
 		public void actionPerformed(ActionEvent ae) {
 			bubbleSort(array1);
-			selectionSort(array2);						// FIGURE OUT WHY selectionSort is sorting immediately and not showing steps
-			
-			//display2.selectionSort(); 
+			selectionSort(array2);						
+			 
 		}
 	}
 	private class infiniteSort implements ActionListener { 
