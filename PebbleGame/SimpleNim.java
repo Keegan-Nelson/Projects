@@ -44,33 +44,21 @@ super();
 }
 
 private class ButtonPress implements ActionListener {
-	public void actionPerformed(ActionEvent arg0) {   /// THIS NEEDS TO TAKE AWAY PEBBLES input minus 
+	public void actionPerformed(ActionEvent arg0) {   
 		String c = pebbleHUMAN.getText(); 
 		double cout = Double.parseDouble(c); 
 	}
-	
-/*	
-	private class ButtonPressC implements ActionListener {    // convert from C to F 
-		public void actionPerformed(ActionEvent arg0) { 
-			String c = CTextField.getText(); 
-			double cout = Double.parseDouble(c); 
-			converter.setInputC(cout);
-			converter.convertT();
-			double outF = converter.getOutputF(); 
-			FTextField.setText(""+outF);
-	*/
-}
-		 
-public static void main(String[] args) {   //Need to allow the human to have a turn to pick a certain amount of pebbles 
+	 
+public static void main(String[] args) {   
 		  
-										//Need to have a gui with text areas from the player to input area
+										
  if( peb > 31 )	{
 								    
  }
  else if(peb == 31) {
 	 
  }
- else if(31 > peb && peb > 15) {      // how to use the and operator 
+ else if(31 > peb && peb > 15) {     
 	
  }
  else if(peb == 15) { 
@@ -78,7 +66,7 @@ public static void main(String[] args) {   //Need to allow the human to have a t
  }
  else if(15 > peb && peb > 7) {
 	
- }                                             // have a method to take 1, _, _   the computer will take a certain amount based on how many pebbles are left 
+ }                                             
  else if(peb == 7) {
 	 
  }
