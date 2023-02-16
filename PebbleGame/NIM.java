@@ -8,8 +8,8 @@ public class NIM {
 
 	private double humanOutput;
 	
-	public static int randint(int i) {				// CONFUSED on how peb relates to the other peb in the other code 
-		return 0; 									// How should I go about this 
+	public static int randint(int i) {				 
+		return 0; 									
 	}
 	
 	public int peb = randint(42) + 9; 
