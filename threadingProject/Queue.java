@@ -29,8 +29,6 @@ public class Queue {
 				return false; 
 			}
 		}
-		// ?????????????????
-		// NEED TO MESS WITH THIS CODE FOR REGISTERING THE THREADS TO THIS QUEUE 
 		// SYNCHRONIZED MAKES IT SO THAT ONLY ONE THREAD CAN ADD ITSELF TO THE QUEUE AT A GIVEN TIME AND ONCE ITS DOWN IT NEEDS TO 
 		// notifyAll(); 
 		public synchronized void enQueue(int element) throws InterruptedException { 
@@ -48,8 +46,7 @@ public class Queue {
 					System.out.println("Insert " + element);
 				}
 			notifyAll(); 
-		}
-		//NEED TO MESS WITH THIS CODE FOR REGISTERING THE THREADS TO THIS QUEUE 
+		} 
 		// SYNCHRONIZED MAKES IT SO THAT ONLY ONE THREAD CAN ADD ITSELF TO THE QUEUE AT A GIVEN TIME AND ONCE ITS DOWN IT NEEDS TO 
 		// notifyAll();
 		public synchronized int deQueue() throws InterruptedException {
@@ -73,7 +70,6 @@ public class Queue {
 			}
 			System.out.println(element + "Deleted");
 			return(element);
-			//notifyAll(); // WHY THIS ISNT WORKING 
 		}
 		
 			public void display() {
