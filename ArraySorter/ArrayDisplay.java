@@ -14,13 +14,7 @@ public class ArrayDisplay extends JComponent {
 	public void setDispArray(int[] dispArray) { 
 		this.dispArray = dispArray; 
 	}
-	//private class reset implements ActionListener { 
-	//	public void actionPerformed(ActionEvent ae) { 
-//			dispArray.clearArray();
-//		}
-//	}
 		
-
 	protected void paintComponent(Graphics g) { 
 		super.paintComponent(g);
 		Graphics2D g2D = (Graphics2D)g; 
