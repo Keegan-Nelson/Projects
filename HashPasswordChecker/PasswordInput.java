@@ -14,14 +14,7 @@ public class PasswordInput {
 
 	static ArrayList<String> hashedPasswords = new ArrayList<String>(); 
 	
-	//String[] hashedPasswords = new String[10]; 
-	//ArrayList<String> hashedList = new ArrayList<String>(Arrays.asList(hashedPasswords));
-	//List hashedList = new ArrayList( Arrays.asList(hashedPasswords));
-	//String p1 = "Hello";
-	//h.add(hello);
-
-	//ArrayList<String> hashedPasswords = new ArrayList<String>();
-	//hashedPasswords.add(p1);
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner firstScan = new Scanner(System.in); 
@@ -38,17 +31,7 @@ public class PasswordInput {
 	public static void addTolist(String input) { 
 		PasswordInput PS = new PasswordInput(); 
 		PS.hashedPasswords.add(input);
-	//	String p1 = "Hello123";
-		//String p2 = "Password123"; 
-		//String p3 = "COMPSCI123";
-		//encryptThisString(p1);
-		//encryptThisString(p2);
-		//encryptThisString(p3);
-		//ArrayList<String> hashedPasswords = new ArrayList<String>();
-		//hashedPasswords.add(p1);
-		//.add(p2);
-		//hashedPasswords.add(p3); 
-		//System.out.println(hashedPasswords);
+	
 		
 	}
 	public static void compareHashes(String userEntry) { 
@@ -80,11 +63,6 @@ public class PasswordInput {
                 hashtext = "0" + hashtext;
             }
   
-            // return the HashText
-            //return hashtext;
-           // PasswordInput PS = new PasswordInput();
-            //PS.addTolist(hashtext);
-           // System.out.println(hashtext);
             
         }
         // For specifying wrong message digest algorithms
