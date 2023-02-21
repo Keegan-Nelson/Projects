@@ -15,13 +15,13 @@ public class DotFrame extends JFrame {
 	private JButton stop; 
 	
 	private class doTwinkleONCE implements ActionListener{ 
-		public void actionPerformed(ActionEvent ae) { //a
+		public void actionPerformed(ActionEvent ae) { 
 			dotDisplay.nextGen(); 
 		}
 	}
 	private class doTwinkle implements ActionListener{ 
 		public void actionPerformed(ActionEvent ae) { 
-			// need code to only do TWINKLE ONCE 
+			 
 			
 			timer = new Timer(10,new doTwinkleONCE()); 
 			timer.start(); 
@@ -29,9 +29,7 @@ public class DotFrame extends JFrame {
 		
 	}
 	private class stopGM implements ActionListener{ 
-		public void actionPerformed(ActionEvent ae) {
-			
-			//timer = new Timer(10,new doTwinkleONCE()); 
+		public void actionPerformed(ActionEvent ae) { 
 			timer.stop();
 		}
 	}
@@ -60,7 +58,7 @@ public class DotFrame extends JFrame {
 		dotDisplay.addMouseListener(new PutDot());
 		ctPane.add(dotDisplay, "Center");
 		step = new JButton("Step"); 
-		step.addActionListener(new doTwinkleONCE());           // AcAAction listener that goes through the next gen once 
+		step.addActionListener(new doTwinkleONCE());           // Action listener that goes through the next gen once 
 		go = new JButton("Play");
 		go.addActionListener(new doTwinkle());
 		stop = new JButton("Stop"); 
@@ -71,8 +69,6 @@ public class DotFrame extends JFrame {
 		bottomPanel.add(go); 
 		bottomPanel.add(step); 
 		ctPane.add(bottomPanel,BorderLayout.SOUTH);
-		//timer = new Timer(10,new doTwinkle()); 
-		//timer.start(); 
 	
 	}
 	

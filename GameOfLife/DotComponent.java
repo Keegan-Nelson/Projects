@@ -28,7 +28,7 @@ public class DotComponent extends JComponent {
 			for( int row = 0; row<gridSize ; row++ ) { 
 				for( int col = 0; col<gridSize; col++) { 
 					int count = 0;
-					if( row-1 >=0 && col-1 >=0) { //&& dots[row-1][col-1]) { 							
+					if( row-1 >=0 && col-1 >=0) {  							
 						if(dots[row-1][col-1]) {   //top left 
 							count++; 
 						}	
@@ -42,7 +42,7 @@ public class DotComponent extends JComponent {
 					if( col-1>=0 && dots[row][col-1]) {	// middle left
 						count++; 
 					}
-					if( col+1 < gridSize && dots[row][col+1]) { //middle right					// all of these comments refer to which colum the if statement is pointing at
+					if( col+1 < gridSize && dots[row][col+1]) { //middle right  	// all of these comments refer to which colum the if statement is pointing at
 						count++; 	
 					}			
 					if( row+1 < gridSize && col-1>=0 && dots[row+1][col-1]) {	//bottom left

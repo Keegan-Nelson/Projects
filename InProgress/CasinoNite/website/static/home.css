@@ -123,6 +123,11 @@ input[type=button]:hover {
     margin: 3em 1em; 
 }
 
+.above { 
+    text-align: center;
+    margin: 3em 1em; 
+}
+
 h2 {
     text-transform: uppercase;
     position: relative; 
