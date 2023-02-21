@@ -57,17 +57,18 @@ public class GUI implements ActionListener {
 			rt.start(); /// WILL NEED THIS TO CREATE THE THREADS 
 		}
 		displayThreads.setText(stringOfThreads);   /// NEED THIS TO KEEP UPDATING THE DISPLAY OF ACTIVE THREADS 
-	//	String stringOfThreads = enterThreads.getText(); 
-		//int numberOfThreads = Integer.parseInt(stringOfThreads);
+		// String stringOfThreads = enterThreads.getText(); 
+		// int numberOfThreads = Integer.parseInt(stringOfThreads);
 	}
 	
 	
 	
-//	public int getAmountOfThreads() {
-//	    return numberOfThreads;
-//	  }
-//	public void setColor(int t) {
-//	    this.numberOfThreads = t;
-//	  }
+	public String getAmountOfThreads() {
+		String amountOfDisplayedThreads = displayThreads.getText();
+	    return  amountOfDisplayedThreads;
+	  }
+	// public void setColor(int t) {
+	//     this.numberOfThreads = t;
+	//   }
 	  
 }

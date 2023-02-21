@@ -6,7 +6,8 @@ public class Queue {
 	// The input being the amount of threads the user wants to create. 
 	GUI threads = new GUI(); 
 	
-		private int SIZE = threads.getAmountOfThreads();
+		private String str = threads.getAmountOfThreads();
+		int SIZE = Integer.parseInt(str); 
 		private int[] items = new int[SIZE]; 
 		private int front, rear; 
 		private boolean busy = false; 
