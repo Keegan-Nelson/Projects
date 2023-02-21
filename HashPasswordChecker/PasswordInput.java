@@ -1,4 +1,4 @@
-package hashpassword;
+package HashPasswordChecker;
 
 import java.util.ArrayList;  
 import java.util.Arrays;
@@ -79,12 +79,6 @@ public class PasswordInput {
             while (hashtext.length() < 32) {
                 hashtext = "0" + hashtext;
             }
-  
-            // return the HashText
-            //return hashtext;
-           // PasswordInput PS = new PasswordInput();
-            //PS.addTolist(hashtext);
-           // System.out.println(hashtext);
             
         }
         // For specifying wrong message digest algorithms

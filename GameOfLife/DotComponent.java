@@ -1,4 +1,4 @@
-package gmOfLife;
+package GameOfLife;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -21,13 +21,6 @@ public class DotComponent extends JComponent {
 			gridSize = 50; 
 			dots = new boolean[gridSize][gridSize];
 			gen = new Random(); 
-			
-			/*for(int row= 0; row < gridSize; row++) { 
-				for(int col=0;col<gridSize; col++) { 
-					dots[row][col]= gen.nextBoolean(); 
-				}
-			
-			}*/
 		}
 		
 		public void nextGen() { 

@@ -1,4 +1,4 @@
-package simpleTag;
+package SimpleTag;
 
 import java.awt.geom.Ellipse2D;
 import java.awt.*;

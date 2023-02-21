@@ -1,8 +1,14 @@
 # Projects
 
-Amazon Copy- 
-SlotMachine- 
-CasinoNite- 
-simpleTag- 
-LightsOut- 
-RunnerGame- 
+## ArraySorter 
+## GameOfLife
+## HashPasswordChecker
+## LightsOut
+## PebbleGame
+## PigLatinConverter
+## RunnerGame
+## SimpleTag
+## SocketProgramming
+## ThreadingProject
+## TicTacToe
+

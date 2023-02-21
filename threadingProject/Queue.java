@@ -1,4 +1,4 @@
-package threadingProject;
+package ThreadingProject;
 
 
 public class Queue {

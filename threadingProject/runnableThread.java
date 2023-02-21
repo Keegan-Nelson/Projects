@@ -1,4 +1,4 @@
-package threadingProject;
+package ThreadingProject;
 
 import java.util.Random;
 import java.util.Timer;

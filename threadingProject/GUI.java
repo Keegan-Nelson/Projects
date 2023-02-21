@@ -1,4 +1,4 @@
-package threadingProject;
+package ThreadingProject;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

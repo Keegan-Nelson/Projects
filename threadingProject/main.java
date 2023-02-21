@@ -1,4 +1,4 @@
-package threadingProject;
+package ThreadingProject;
 
 import javax.swing.*; 
 import java.awt.*; 

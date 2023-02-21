@@ -1,4 +1,4 @@
-package lightout;
+package LightsOut;
 
 
 import java.awt.*;

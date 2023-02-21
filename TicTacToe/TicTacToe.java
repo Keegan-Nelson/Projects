@@ -1,4 +1,4 @@
-package aSimpleGame;
+package TicTacToe;
 
 	import javax.swing.JFrame;
 	import javax.swing.JPanel;

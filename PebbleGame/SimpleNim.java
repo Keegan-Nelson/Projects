@@ -1,4 +1,4 @@
-package simplenim;
+package PebbleGame;
 
 import java.awt.*; 
 import java.awt.event.*; 
