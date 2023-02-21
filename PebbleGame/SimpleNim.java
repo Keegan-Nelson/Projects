@@ -48,7 +48,7 @@ private class ButtonPress implements ActionListener {
 		String c = pebbleHUMAN.getText(); 
 		double cout = Double.parseDouble(c); 
 	}
-	 
+}	 
 public static void main(String[] args) {   
 		  
 										
@@ -94,5 +94,4 @@ public static void main(String[] args) {
 	frame.setLocation(300, 300);
 	
 }		
-	
 }
