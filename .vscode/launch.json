@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Blackjack",
+            "request": "launch",
+            "mainClass": "Blackjack.Blackjack",
+            "projectName": "Projects_7395d1ea"
+        },
+        {
+            "type": "java",
             "name": "Launch main",
             "request": "launch",
             "mainClass": "ThreadingProject.main",

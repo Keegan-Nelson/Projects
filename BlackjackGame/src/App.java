@@ -2,15 +2,20 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
+
         try (Scanner myScanner = new Scanner (System.in)) {
             String decision;
-            boolean YorN = true;
-            
+            boolean YorN = false;
+            System.out.println("Would you like to play Blackjack?");
+
             while(YorN) {
-                System.out.println("Would you like to play Blackjack?");
-                System.out.println("enter another name : yes or no");
                 decision = myScanner.nextLine();
             
+                while(YorN) { 
+                    System.out.println("You are now playing Blackjack");
+                }
+                System.exit(0);
+
                 switch(decision)
                 {
                     // Yes Cases
@@ -29,22 +34,28 @@ public class App {
                         break;
                     
                     
-                    default:
-                        System.out.println("please enter again ");
+                     default:
+                        //System.out.println("please enter again ");
                         boolean repeat = true;
             
                         while (repeat)
                         {
-                            System.out.println("enter another name : yes or no");
+                            System.out.println("Would you like to play again?");
                             decision = myScanner.nextLine();
             
                             switch (decision)
                             {
+                                // Yes Cases
                                 case "yes":
                                 YorN = true;
                                     repeat = false;
                                     break;
-            
+                                    case "y": 
+                                YorN = true; 
+                                    repeat = false;
+                                    break;
+
+                                // No Cases
                                 case "no":
                                 YorN = repeat = false;
                                     break;
@@ -54,7 +65,8 @@ public class App {
                         }
                         break;
                 }
-            }
-        }
+
+                
     }
-}
+} 
+  

@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
 
 public class Deck {
 
@@ -29,9 +31,13 @@ public class Deck {
         if(makeDeck){
             //Go through all the suits
 
-            for (int i = 0; i < Suit.values(); i++) {
+            // Suit[] values = Suit.values();
+            // for (int i = 0; i < values.length; i++) {
+            //     Suit suit; 
+            //     Rank rank; 
+            //     playingDeck.add(new Card(suit, rank));
+            // }
 
-            }
             for(Suit suit : Suit.values()){
                 //Go through all the ranks
                 for(Rank rank : Rank.values()){
@@ -41,4 +47,21 @@ public class Deck {
             }
         }
     }
+
+    //Shuffle the deck
+    public void shuffle(){
+        Collections.shuffle(playingDeck, new Random());
+    }   
+
+    public Card takeCard(){
+
+        //Take a copy of the first card from the deck
+        Card cardToTake = new Card(playingDeck.get(0));
+        //Remove the card from the deck
+        playingDeck.remove(0);
+        //Give the card back
+        return cardToTake;
+
+
+}
 }
