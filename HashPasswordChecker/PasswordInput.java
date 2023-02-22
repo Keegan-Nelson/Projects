@@ -31,9 +31,8 @@ public class PasswordInput {
 	public static void addTolist(String input) { 
 		PasswordInput PS = new PasswordInput(); 
 		PS.hashedPasswords.add(input);
-	
-		
 	}
+    
 	public static void compareHashes(String userEntry) { 
 		PasswordInput PS = new PasswordInput(); 
 		if(userEntry.equals(PS.hashedPasswords.get(0))) { //Make the arrayList a global variable so all these other methods can use it. 
@@ -67,7 +66,7 @@ public class PasswordInput {
             //return hashtext;
            // PasswordInput PS = new PasswordInput();
             //PS.addTolist(hashtext);
-           // System.out.println(hashtext);
+            //System.out.println(hashtext);
             
         }
         // For specifying wrong message digest algorithms
